@@ -1,0 +1,13 @@
+.details-container {
+  margin-top: 10px;
+  width: 50%;
+  height: auto;
+  background-color: #1e1f26;
+  border-radius: 10px;
+  color: white;
+  &__item {
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

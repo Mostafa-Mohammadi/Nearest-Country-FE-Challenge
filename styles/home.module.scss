@@ -1,0 +1,20 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    margin-bottom: 2rem;
+    color: #1e1f26;
+    font-family: fantasy;
+    font-weight: 500;
+  }
+  &__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin-top: 200px;
+  }
+}
